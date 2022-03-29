@@ -1,0 +1,431 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*outline: 1px solid black;*/
+}
+div{
+    display: block;
+    
+}
+button{
+    text-align: left;
+    border-radius: 10px;
+}
+
+div#backConan{
+    position: fixed;
+    top: 0px;
+    left: 50%;
+    margin-left: -1350px;
+    z-index: 20;
+}
+div#wrap{
+    width: 100%;
+}
+div#header{
+    width: 100%;
+    min-width: 960px;
+    height: 136px;
+    padding-bottom: 20px;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+}
+div#backConanhead{
+    position: absolute;
+    top: 0;
+    margin-left: -1350px;
+    z-index: 0;
+}
+div#titleContainer{
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+img#headerTitleImg{
+    margin-top: 10px;
+    width: 467px;
+    height: 77px;
+}
+div#contentMenuContainer{
+    
+    clear: both;
+    position: relative;
+    z-index: 2;
+    width: 960px;
+    height: 0px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+div#cm1{
+    margin-left: 5px;
+}
+div#contentMenu {
+    margin-top: 2px;
+    float: left;
+    margin-left: 5px; 
+    height: 40px;
+    cursor: pointer;
+    border-radius: 4px;
+    line-height: 1.4;
+    
+}
+.btcnn_head{
+    float: left;
+    width: 177px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    
+    flex: 0 1 auto;
+    font-size: 18px;
+    background-color: white;
+    
+}
+
+img.btnon{
+    
+    float: left;
+    margin-top: 10px;
+    
+    flex: 0 1 auto;
+
+}
+.btnon1{
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+    
+}
+.btnon2{
+    float: right;
+    margin-top: 10px;
+    margin-left: 3px;
+   
+}
+span{
+    padding-top:4px;
+    display:block;
+    font-size:12px;
+    line-height:1.5;
+
+}
+div#headerPadding{
+    position: relative;
+    height: 156px;
+    min-height: 156px;
+    width: 100%;
+}
+div#contents{
+    clear: both;
+    z-index: 50;
+    min-width: 960px;
+}
+div#contentsContainer{
+    position: relative;
+}
+div#charaContent{
+    clear: both;
+    z-index: 50;
+    display: block; 
+    min-height: 7px;
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+    left: 6px;
+}
+
+.name{
+    height: 50px;
+    font-weight: bold;
+    font-size: 28px;
+    display: block;
+}
+.name02{
+    height: 35px;
+    font-weight: bold;
+    font-size: 22px;
+    display: block;
+
+}
+.chara01{
+    float: left;
+}
+.chara01_text{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 20px;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.chara02_text{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 515px;
+    font-size: 15px;
+    line-height: 1.7;
+    width: 179.25px;
+    height: 126.5px;
+
+}
+.chara03{
+    width: 333px;
+    float: left;
+}
+.chara04{
+    width: 324px;
+    float: left;
+}
+.chara05{
+    width: 303px;
+    float: left;
+}
+.chara06{
+    width: 333px;
+    float: left;
+}
+.chara07{
+    width: 323px;
+    float: left;
+}
+.chara08{
+    width: 304px;
+    float: left;
+}
+.chara09{
+    width: 333px;
+    float: left;
+}
+.chara10{
+    width: 324px;
+    float: left;
+}
+.chara11{
+    width: 303px;
+    float: left;
+}
+.chara12{
+    width: 333px;
+    float: left;
+}
+.chara13{
+    width: 324px;
+    float: left;
+}
+.chara14{
+    width: 303px;
+    float: left;
+}
+.chara15{
+    width: 333px;
+    float: left;
+}
+.chara16{
+    width: 324px;
+    float: left;
+}
+.chara17{
+    width: 303px;
+    float: left;
+}
+.chara03_text{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 20px;
+    font-size: 12px;
+    line-height: 1.6;
+}
+.chara04_text{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 20px;
+    font-size: 12px;
+    line-height: 1.6;
+}
+.chara05_text{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 20px;
+    font-size: 12px;
+    line-height: 1.6;
+}
+.chara06_text{
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 20px;
+    font-size: 12px;
+    line-height: 1.6;
+}
+.chara07_text{
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 35px;
+    font-size: 12px;
+    line-height: 1.6;
+}
+.chara08_text{
+    position: absolute;
+    margin-top: 35px;
+    font-size: 12px;
+    line-height: 1.6;
+}
+.chara09_text{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 12px;
+    line-height: 1.6;
+}
+.chara10_text{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -10px;
+    font-size: 12px;
+    line-height: 1.6;
+}
+.chara11_text{
+    position: absolute;
+    margin-top: 15px;
+    font-size: 12px;
+    line-height: 1.6;
+}
+.chara12_text{
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 20px;
+    font-size: 12px;
+    line-height: 1.6;
+}
+.chara13_text{
+    position: absolute;
+    margin-top: 35px;
+    margin-left: -10px;
+    font-size: 12px;
+    line-height: 1.6;
+}
+.chara14_text{
+    position: absolute;
+    margin-top: 35px;
+    font-size: 12px;
+    line-height: 1.6;
+}
+.chara15_text{
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 20px;
+    font-size: 12px;
+    line-height: 1.6;
+}
+.chara16_text{
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 35px;
+    font-size: 12px;
+    line-height: 1.6;
+}
+div#footer{
+    width: 100%;
+    min-width: 962px;
+    background: #fff;
+    position: relative;
+    z-index: 1600;
+    clear: both;
+    overflow: hidden;
+}
+div#footerContainer{
+    width: 960px;
+    margin: 0 auto;
+}
+.footerBox{
+    color: #000;
+    height: 143.93px;
+    width: 960px;
+    font-size: 0.6em;
+    padding-bottom: 10px;
+    clear: both;
+    position: relative;
+    overflow: hidden;
+
+}
+.hooter_01{
+    margin: 10px 10px 0 0;
+    float: left;
+    background: #fff;
+    width: 220px;
+    height: 120px;
+    
+}
+.hooter_02{
+    margin: 10px 10px 0 0;
+    float: left;
+    background: #fff;
+    width: 220px;
+    height: 120px;
+}
+.hooter_03{
+    margin: 10px 10px 0 0;
+    float: left;
+    background: #fff;
+    width: 220px;
+    height: 120px;
+}
+.publisherBanner{
+    float: right;
+    text-align: right;
+    margin-top: 10px;
+}
+.sundayLogo{
+    display: block;
+    width: 184px;
+    margin-bottom: 10px;
+}
+.shokakukanLogo{
+    margin-top: 10px;
+}
+.abj_box{
+    margin-top: -2px;
+    margin-bottom: 8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: solid 1px #e5e5e5;
+    border-bottom: solid 1px #e5e5e5;
+}
+.abj_box_detail{
+    display: inline-block;
+    margin-left: 170px;
+}
+.abj{
+    width: 72px;
+    margin-right: 20px;
+    display: block;
+    float: left;
+}
+.abj_text{
+    font-size: 12px;
+    line-height: 1.6;
+    margin-top: 0.8em;
+    display: block;
+    float: left;
+}
+.abj_text2{
+    font-size: 12px;
+    line-height: 1.6;
+    margin-top: 0.8em;
+    display: block;
+    float: left;
+}
+.footerBox2{
+    width: 960px;
+    height: 25px;
+   
+
+}
+.footerleft{
+    float: left;
+}
+.footerright{
+    float: right;
+}
